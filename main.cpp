@@ -45,7 +45,7 @@ int main()
 
     bool bit42 = BIT_EXT_64(val_64, 42);
 
-    uint32_t fld45_13 = FIELD_EXT_64(val_64, 45, 13);
+    uint64_t fld45_13 = FIELD_EXT_64(val_64, 45, 13);
 
     cout << "Data: 0x" << hex << val_64 << ", BIT#42: " << bit42 << ", FIELD[45,13]: 0x" << fld45_13 << endl;
 
